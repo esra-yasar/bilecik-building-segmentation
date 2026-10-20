@@ -1,0 +1,10 @@
+# Dataset config (YOLOv8 segmentation format).
+# Download the dataset from Roboflow (link in README) and place it so that
+# train/, valid/ and test/ sit next to this file — or update the paths below.
+path: .
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 1
+names: ['building']
